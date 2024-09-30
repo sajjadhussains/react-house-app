@@ -15,7 +15,7 @@ const PlayHouses = () => {
         <div className="flex flex-col-reverse gap-12 lg:flex-row lg:gap-40">
           <div
             className="ml-5 lg:w-[41%] pb-5 lg:py-36 text-left pr-8"
-            data-aos="fade-right"
+            data-aos="fade-down"
           >
             <h3 className="text-4xl font-bold">
               Speelhuizen voor Kinderen. Creëer een Fantastische Speelomgeving
@@ -54,7 +54,7 @@ const PlayHouses = () => {
           </div>
           <div
             className="lg:w-[45%] lg:flex lg:items-center"
-            data-aos="fade-left"
+            data-aos="fade-down"
           >
             <img src={playHouse} alt="" />
           </div>

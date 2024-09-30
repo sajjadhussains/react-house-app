@@ -26,7 +26,7 @@ const BlogCard = ({ blog }) => {
           <p className="font-normal">#{hash}</p>
         </div>
       </div>
-      <div className="h-[87px]">
+      <div className="h-[6rem] mt-5">
         <p>{description}</p>
       </div>
       <button className="bg-[#FF7300] rounded-[5px] px-7 py-3 text-white mt-7">

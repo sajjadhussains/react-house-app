@@ -38,7 +38,7 @@ const Blogs = () => {
       <div className="flex justify-center">
         <div className="max-w-[463px]">
           <h2 className="text-center text-4xl font-bold">Blogs</h2>
-          <p className="mt-2">
+          <p className="mt-2 text-center md:text-start">
             Benieuwd naar de nieuwste blogs en trends over speelhuizen?
           </p>
         </div>

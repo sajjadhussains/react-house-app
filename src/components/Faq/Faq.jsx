@@ -50,7 +50,7 @@ const Faq = () => {
       <div className="container mx-auto py-36">
         <h2 className="text-center text-5xl">Veelgestelde vragen</h2>
         <div className="flex flex-col lg:flex lg:flex-row lg:justify-between gap-10  mt-20">
-          <div className="lg:w-[537px] pr-11 mt-10" data-aos="fade-right">
+          <div className="w-full lg:w-1/2 pr-11 mt-10" data-aos="fade-down">
             <h5 className="text-xl font-semibold">
               Your questions, our answers
             </h5>
@@ -64,7 +64,7 @@ const Faq = () => {
             </button>
           </div>
           {/* accordion part */}
-          <div className="lg:w-[650px]" data-aos="fade-left">
+          <div className="w-full lg:1/2" data-aos="fade-down">
             {accordionData.map((item, index) => (
               <div key={index} className="border-b  border-b-[#BBB7B7]  mb-2">
                 <div

@@ -10,7 +10,7 @@ const Banner = () => {
     <div className="bg-[#584592]">
       <div className="flex">
         <div className="w-full flex items-center justify-center lg:w-1/2 xl:justify-start mr-12">
-          <div className="xl:w-[672px] mx-auto" data-aos="fade-right">
+          <div className="xl:w-[672px] mx-auto" data-aos="fade-down">
             <h1 className="text-[2rem] sm:text-[3.313rem] text-white text-center leading-3.677 font-semibold lg:text-start mt-10 lg:mt-0 ml-0 lg:ml-8 xl:ml-0">
               Dé speelhuizen specialist van Nederland en Belgie
             </h1>
@@ -21,7 +21,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="w-[0px] lg:w-1/2 lg:block" data-aos="fade-left">
+        <div className="w-[0px] lg:w-1/2 lg:block" data-aos="fade-down">
           <img className="w-full" src={play_ground} alt="" />
         </div>
       </div>

@@ -11,7 +11,7 @@ const SignUpForNews = () => {
       <div className="flex flex-col lg:flex-row lg:justify-between lg:pl-12 lg:pr-18">
         <div
           className="w-full lg:w-1/2 mt-28 lg:mb-10 xl:mb-0"
-          data-aos="fade-right"
+          data-aos="fade-down"
         >
           <h2 className="text-[3.5rem] font-bold">
             Meld u aan voor onze nieuwsbrief.
@@ -32,7 +32,7 @@ const SignUpForNews = () => {
         </div>
         <div
           className="w-full lg:w-1/2 flex justify-end my-16 mr-[77px]"
-          data-aos="fade-left"
+          data-aos="fade-down"
         >
           <img className="w-full" src={newsLetter} alt="" />
         </div>

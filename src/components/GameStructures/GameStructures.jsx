@@ -27,7 +27,7 @@ const GameStructures = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10 ">
         <div
           className="bg-[#FFE6E0] pt-20 lg:pt-44 pb-7 px-5 rounded-[20px]"
-          data-aos="fade-right"
+          data-aos="fade-down"
         >
           <div className="">
             <img className="mx-auto " src={game1} alt="" />
@@ -40,7 +40,7 @@ const GameStructures = () => {
         <div>
           <div
             className="bg-[#9EFFFA] rounded-[20px] px-5 py-6"
-            data-aos="zoom-in"
+            data-aos="fade-down"
           >
             <img className="mx-auto lg:mx-12" src={game2} alt="" />
             <div className="flex justify-between items-center mt-6">
@@ -50,7 +50,7 @@ const GameStructures = () => {
           </div>
           <div
             className="bg-[#E0E0FF] rounded-[20px] pt-16 pb-9 px-5 mt-5"
-            data-aos="zoom-in"
+            data-aos="fade-down"
           >
             <img className="mx-auto lg:mx-4" src={game3} alt="" />
             <div className="flex justify-between items-center mt-12">
@@ -61,7 +61,7 @@ const GameStructures = () => {
         </div>
         <div
           className="bg-[#EDEBEB] rounded-[20px] pt-20 lg:pt-44 pb-7 px-5"
-          data-aos="fade-right"
+          data-aos="fade-down"
         >
           <div className="">
             <div className="h-[268px]">
